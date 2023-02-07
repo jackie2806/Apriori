@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family:  Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;;
+    background-color: #1c4940;
+  }
+  
+  button{
+    padding-top: 10px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      padding-right: 20px;
+      border-top-width: 1px;
+      border-left-width: 1px;
+      border-bottom-width: 1px;
+      border-right-width: 1px;
+      border-color: #fff;
+      border-style: solid;
+      border-radius: 6px;
+      background-color: #252525;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  /*button {
+    background-color: rgba(239, 223, 139, 1);
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .main__reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+  }
+  
+  .main__reservation__body{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main__reservation__body__img {
+    
+     margin-left: 250px;
+    margin-top: 10px; 
+  }
+  .main__reservation__body__data {
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 80px; 
+  } 
+  .main__reservation__add {
+    flex-grow: 100;
+    margin-top: 25px;
+  }*/
+  
+  /*#img__1 {
+   
+    width: 500px;
+    height: 280px;
+    border-radius: 25px;
+  }
+  
+  p {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .main__validation__form {
+    text-align: center;
+  }
+  
+  #img__2 {
+    width: 1093px;
+    height: 259;
+    border-radius: 5px;
+  }
+  #img__3 {
+    width: 1093px;
+    height: 259;
+    border-radius: 5px;
+  }
+   #input_validation {
+    background-color: rgba(239, 223, 139, 1);
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+   }
+  
+  .main__validation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .main__validation__img {
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 40px;
+  }
+  
+  .main__validation__form{
+    display:flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  #numberCard{
+    width: 250px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  }
+  
+  #names{
+    width: 250px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  }
+  #expiration{
+    width: 120px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  
+  }
+  #ccv{
+    width: 80px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  }
+  
+  .main__validation__form__number{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  
+  .main__validation__form__name{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+  
+  }
+  
+  .main__validation__form__exp{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  
+  .main__validation__form__ccv{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+   
+  }
+  span {
+    margin-left: 80px;
+  }
+  
+  .main__pay{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .main__pay__title {
+    align-items: center;
+    margin-left: 350px;
+  }
+  
+  .main__pay__text {
+    justify-content: center;
+    margin-left: 350px;
+    background-color: rgba(239, 223, 139, 0.35);
+    padding: 30px;
+  
+  }
+  
+  #btn_end{
+    text-align: center;
+    margin-left: 670px;
+  }
+  
+  #message{
+    font-weight: bolder;
+    margin-left: 170px;
+  } */
+  
+  const validator = {
+    isValid: (n) => {
+      let digits = n.split("").map(Number);
+  
+      //console.log(typeof digits)
+      //condición general
+      if (digits.length > 10) {
+        //duplicar posición par
+        digits = digits
+          .reverse()
+          .map((digit, i) => (i % 2 === 1 ? digit * 2 : digit));
+      }
+      //sumar los dígitos duplicados con 2 dígitos
+      digits = digits.map((digit) => (digit > 9 ? digit - 9 : digit));
+      //console.log(digits)
+      //sumar todos los dígitos
+      const sum = digits.reduce((acumulation, digit) => (acumulation += digit));
+      //console.log(sum);
+      return sum % 10 === 0;
+    },
+    maskify: (n) => {
+      //convierto un string en array
+      let digits = Array.from(n);
+  
+      digits.map((acc, i) =>
+        i < digits.length - 4 ? (digits[i] = "#") : digits
+      );
+  
+      //for (let i = 0; i< digits.length-4;i++){
+      //digits[i] = '#';
+  
+      //}
+      return digits.toString().replace(/,/g, "");
+    },
+  };
+  export default validator;
+  
+  

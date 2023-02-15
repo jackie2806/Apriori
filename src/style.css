@@ -8,15 +8,21 @@
     background-color: #1c4940;
   }
   
-  #init {
-
+  .section_init {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
 
+  .section_init_img{
+    margin:3rem;
+   
+    
+  }
 
-
+  #img-logo{
+    max-width: 25rem;
   }
   button{
     padding-top: 10px;

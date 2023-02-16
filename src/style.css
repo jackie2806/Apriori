@@ -1,0 +1,352 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family:  Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;;
+    background-color: #1c4940;
+  }
+  p{
+    color: white;
+    line-height: 1cm;
+  
+  }
+
+  /*Posicionamiento de las cajitas dentro de la sección Init*/
+
+  .section_init {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_init_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:3rem;  
+    
+  }
+  .section_init_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section_init_description_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .section_init_description_address{
+    margin: 0.5rem;
+    text-align: center;
+  }
+
+  .section_init_description_button_reservation{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_init_description_button_menu{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .section_init_icons{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+   
+    
+  }
+
+ .section_init_icons_instagram{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin: 3rem;
+  }
+
+  .section_init_icons_email{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin: 3rem;
+  } 
+
+  
+
+  /*Imágenes de la primera vista de la página*/
+  #img-logo{
+    max-width: 25rem;
+  }
+
+  #img-instagram{
+    max-width: 2.5rem;
+  }
+  #img-email{
+    max-width: 2.5rem;
+  }
+
+ /*Estilos de los botones de la sección Init*/
+
+ #button-reservation{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: #252525;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#button-carta{
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: #000;
+  border-style: solid;
+  border-radius: 7px;
+  background-color:#fff;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+  
+
+ 
+  
+  /*button {
+    background-color: rgba(239, 223, 139, 1);
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .main__reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+  }
+  
+  .main__reservation__body{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main__reservation__body__img {
+    
+     margin-left: 250px;
+    margin-top: 10px; 
+  }
+  .main__reservation__body__data {
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-top: 80px; 
+  } 
+  .main__reservation__add {
+    flex-grow: 100;
+    margin-top: 25px;
+  }*/
+  
+  /*#img__1 {
+   
+    width: 500px;
+    height: 280px;
+    border-radius: 25px;
+  }
+  
+  p {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .main__validation__form {
+    text-align: center;
+  }
+  
+  #img__2 {
+    width: 1093px;
+    height: 259;
+    border-radius: 5px;
+  }
+  #img__3 {
+    width: 1093px;
+    height: 259;
+    border-radius: 5px;
+  }
+   #input_validation {
+    background-color: rgba(239, 223, 139, 1);
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+   }
+  
+  .main__validation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .main__validation__img {
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 40px;
+  }
+  
+  .main__validation__form{
+    display:flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  #numberCard{
+    width: 250px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  }
+  
+  #names{
+    width: 250px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  }
+  #expiration{
+    width: 120px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  
+  }
+  #ccv{
+    width: 80px;
+    height: 30px;
+    margin-left: 570px;
+    background-color: rgba(239, 223, 139, 0.35);
+    border-radius: 10px;
+  }
+  
+  .main__validation__form__number{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  
+  .main__validation__form__name{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+  
+  }
+  
+  .main__validation__form__exp{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  
+  .main__validation__form__ccv{
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+   
+  }
+  span {
+    margin-left: 80px;
+  }
+  
+  .main__pay{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .main__pay__title {
+    align-items: center;
+    margin-left: 350px;
+  }
+  
+  .main__pay__text {
+    justify-content: center;
+    margin-left: 350px;
+    background-color: rgba(239, 223, 139, 0.35);
+    padding: 30px;
+  
+  }
+  
+  #btn_end{
+    text-align: center;
+    margin-left: 670px;
+  }
+  
+  #message{
+    font-weight: bolder;
+    margin-left: 170px;
+  } */
+  
+  

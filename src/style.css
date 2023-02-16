@@ -9,7 +9,25 @@
   }
   p{
     color: white;
+    line-height: 1cm;
+  
   }
+
+
+  /*Imágenes de la primera vista de la página*/
+  #img-logo{
+    max-width: 25rem;
+  }
+
+  #img-instagram{
+    max-width: 3.5rem;
+  }
+  #img-email{
+    max-width: 3.5rem;
+  }
+
+  /*Posicionamiento de las cajitas dentro de la sección Init*/
+
   .section_init {
     display: flex;
     flex-direction: column;
@@ -18,15 +36,23 @@
   }
 
   .section_init_img{
-    margin:3rem;
-   
+    margin:3rem;  
     
   }
 
-  #img-logo{
-    max-width: 25rem;
+  .section_init_description_text{
+    margin: 1rem;
   }
-  button{
+
+  .section_init_description_address{
+    margin: 0.5rem;
+    text-align: center;
+  }
+
+
+
+
+  #button-reservation{
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -41,7 +67,11 @@
     background-color: #252525;
     text-align: center;
     text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
   }
+ 
   
   /*button {
     background-color: rgba(239, 223, 139, 1);

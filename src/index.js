@@ -1,5 +1,5 @@
 import validator from "./validator.js";
-function init(){  
+/* function init(){  
 
 let form_s = document.getElementById("form_s");
 form_s.style.display = "none";
@@ -82,3 +82,4 @@ function backInit(){
 
 window.addEventListener('load', init)
 
+ */

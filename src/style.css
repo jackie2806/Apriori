@@ -13,6 +13,60 @@
   
   }
 
+  /*Posicionamiento de las cajitas dentro de la sección Init*/
+
+  .section_init {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_init_img{
+    margin:3rem;  
+    
+  }
+
+  .section_init_description_text{
+    margin: 1rem;
+  }
+
+  .section_init_description_address{
+    margin: 0.5rem;
+    text-align: center;
+  }
+
+  .section_init_description_button_reservation{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_init_description_button_menu{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_init_icons{
+    display: flex;
+    flex-direction: row; 
+    
+  }
+
+ .section_init_icons_instagram{
+   margin: 3rem;
+  }
+
+  .section_init_icons_email{
+    margin: 3rem;
+  } 
+
+  
 
   /*Imágenes de la primera vista de la página*/
   #img-logo{
@@ -20,15 +74,13 @@
   }
 
   #img-instagram{
-    max-width: 3.5rem;
+    max-width: 2.5rem;
   }
   #img-email{
-    max-width: 3.5rem;
+    max-width: 2.5rem;
   }
 
  /*Estilos de los botones de la sección Init*/
-
-
 
  #button-reservation{
   padding-top: 10px;
@@ -72,31 +124,7 @@
   
 }
 
-  /*Posicionamiento de las cajitas dentro de la sección Init*/
-
-  .section_init {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .section_init_img{
-    margin:3rem;  
-    
-  }
-
-  .section_init_description_text{
-    margin: 1rem;
-  }
-
-  .section_init_description_address{
-    margin: 0.5rem;
-    text-align: center;
-  }
-
-
-
+  
 
  
   

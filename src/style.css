@@ -26,6 +26,52 @@
     max-width: 3.5rem;
   }
 
+ /*Estilos de los botones de la sección Init*/
+
+
+
+ #button-reservation{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 6px;
+  background-color: #252525;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#button-carta{
+  border-style: solid;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: #000;
+  border-style: solid;
+  border-radius: 7px;
+  background-color:#fff;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
   /*Posicionamiento de las cajitas dentro de la sección Init*/
 
   .section_init {
@@ -52,25 +98,6 @@
 
 
 
-  #button-reservation{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
-    border-color: #fff;
-    border-style: solid;
-    border-radius: 6px;
-    background-color: #252525;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
  
   
   /*button {
